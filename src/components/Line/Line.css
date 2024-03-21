@@ -1,0 +1,33 @@
+.ligne {
+  display: flex;
+  align-items: center;
+  height: 60px;
+  background-color: #fcfbfb;
+  margin: 10px 0;
+  padding-left: 10px;
+  position: relative;
+  font-size: 25px;
+}
+.ligne:hover {
+  background-color: #f8efef;
+  cursor: pointer;
+}
+.copiemoi {
+  position: absolute;
+  right: 20px;
+  font-size: 15px;
+}
+@media (max-width: 1054px) {
+  .ligne {
+    height: 45px;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}
+@media (max-width: 1054px) {
+  .ligne {
+    height: 45px;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}

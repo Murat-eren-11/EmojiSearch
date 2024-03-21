@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 1024px;
+  height: 100%;
+  margin: auto;
+}
+
+@media (max-width: 1054px) {
+  .container {
+    width: auto;
+    margin: 0 30px;
+  }
+
+  .ligne {
+    height: 45px;
+    font-size: 18px;
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    width: auto;
+  }
+}

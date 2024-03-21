@@ -1,0 +1,37 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header > h1 {
+  font-size: 48px;
+  margin: 30px 0;
+}
+header > input {
+  width: 60%;
+  height: 40px;
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  outline: none;
+  margin-bottom: 30px;
+  padding-left: 5px;
+  background-color: #f8efef;
+}
+@media (max-width: 1054px) {
+  header > input {
+    height: 35px;
+    font-size: 15px;
+  }
+  header > h1 {
+    font-size: 40px;
+    margin: 30px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  header > h1 {
+    font-size: 30px;
+  }
+}
